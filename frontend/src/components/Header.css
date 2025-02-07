@@ -1,0 +1,137 @@
+.header {
+  width: 100%;
+  font-family: "Arial", sans-serif;
+}
+
+/* Top Bar */
+.top-bar {
+  background-color: #f0f0f0;
+  height: 30px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.top-bar-content {
+  display: flex;
+  gap: 20px;
+}
+
+.account-link,
+.location {
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Middle Bar */
+.middle-bar {
+  background-color: #fff;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.middle-bar-content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+  font-family: "Arial Black", sans-serif;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  color: #007bff;
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+}
+
+.icons a {
+  text-decoration: none;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+/* Announcement Bar */
+.announcement-bar {
+  margin-left: 100px;
+  background-color: #f0f0f0;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.announcement-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: slide 6s linear infinite;
+}
+
+.announcement-item {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+}
+
+.announcement-item:nth-child(1) {
+  animation: fade-in-out 2s 0s linear infinite;
+}
+
+.announcement-item:nth-child(2) {
+  animation: fade-in-out 2s 2s linear infinite;
+}
+
+.announcement-item:nth-child(3) {
+  animation: fade-in-out 2s 4s linear infinite;
+}
+
+@keyframes slide {
+  0% { transform: translateY(0); }
+  33.33% { transform: translateY(-40px); }
+  66.66% { transform: translateY(-80px); }
+  100% { transform: translateY(0); }
+}
+
+@keyframes fade-in-out {
+  0%, 100% { opacity: 0; }
+  33.33%, 66.66% { opacity: 1; }
+}

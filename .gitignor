@@ -1,0 +1,3 @@
+git rm -r --cached frontend
+
+git rm -r --cached backend

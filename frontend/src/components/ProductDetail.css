@@ -1,0 +1,42 @@
+.product-detail {
+    display: flex;
+    flex-direction: row; /* Change to row to place image and info side by side */
+    align-items: flex-start; /* Align items to the top */
+    padding: 20px;
+  }
+  
+  .product-image {
+    width: 100%;
+    max-width: 520px;
+    height: auto;
+    object-fit: cover;
+    margin-right: 20px; /* Add margin to the right to space out the image and info */
+  }
+  
+  .product-info {
+    text-align: left; /* Align text to the left */
+    max-width: 600px; /* Optional: limit the width of the info section */
+  }
+  
+  .product-info h2 {
+    margin-bottom: 10px;
+  }
+  
+  .product-info p {
+    margin-bottom: 20px;
+  }
+  
+  .product-info button {
+    width: 500px;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: dimgrey;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .product-info button:hover {
+    background-color: darkgray;
+  }

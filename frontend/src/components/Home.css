@@ -1,0 +1,21 @@
+/* Ensure only the hero section is centered */
+.hero {
+  height: 100vh; /* Full viewport height */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image {
+  background-image: url('../imgs/hero.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+
+/* Fix for affecting other elements */
+.home {
+  display: block; /* Prevents flex from affecting other elements */
+}

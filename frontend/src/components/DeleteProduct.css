@@ -1,0 +1,36 @@
+/* filepath: /frontend/src/components/DeleteProduct.css */
+.delete-product {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .delete-product h2 {
+    margin-bottom: 20px;
+  }
+  
+  .delete-product form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .delete-product input {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+  }
+  
+  .delete-product button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .delete-product button:hover {
+    background-color: #c82333;
+  }

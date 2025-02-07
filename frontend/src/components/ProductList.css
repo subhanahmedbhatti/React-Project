@@ -1,0 +1,27 @@
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px; /* Decrease the gap between products */
+  padding: 20px;
+}
+
+.product-item {
+  flex: 1 1 calc(23% - 10px); /* Adjust the size to fit 4 items per row with decreased gap */
+  max-width: calc(23% - 10px);
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.product-item:hover {
+  transform: scale(1.05);
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}

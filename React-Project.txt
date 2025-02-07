@@ -1,0 +1,4 @@
+Developed the frontend user interface using React. (Subhan - 04162214017)
+Built the backend using Node.js, Express, and Mongoose. (Zarak Jehan - 04162214034)
+Connected the frontend and backend running on different ports. (Aoun Allah Dad - 04162214053)
+Managed database setup and connection using MongoDB. (M. Abdullah - 04162214004)
